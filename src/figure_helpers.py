@@ -26,7 +26,7 @@ def individual_networks(auth_df, surname, forename, fig_path):
             edgecolors='k',  # Set node border color to black
             linewidths=1,  # Set node border (edge) width
             width=0.1)  # Set edge (lines between nodes) width
-    ax.set_title('The Five Year Collaborative Network of ' + forename + ' ' + surname,
+    ax.set_title('The Collaborative Network of ' + forename + ' ' + surname,
                  loc='left', fontsize=19, y=0.975)
     sm = plt.cm.ScalarMappable(cmap=mpl.colormaps.get_cmap('Spectral_r'))
     sm.set_array([])  # Needed to set the array for the ScalarMappable
