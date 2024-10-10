@@ -1,0 +1,473 @@
+,display_name,total_score_level_2
+0,Population,56.33957263300003
+1,Mortality rate,13.95524332
+2,Disease,8.373358704
+3,Incidence (geometry),0.64576656
+4,Term (time),0.8944531099999999
+5,Dissolution,0.7724254
+6,Bond,0.47877705
+7,Ethnic group,4.58007776
+8,Race (biology),3.94546047
+9,Psychological intervention,8.43386919
+10,State (computer science),0.44732544
+11,Pregnancy,1.89931015
+12,Obesity,1.72471165
+13,Cohort,7.694138129999999
+14,Inequality,19.53169373
+15,Cohort study,3.5261584899999994
+16,Public health,10.923414659999999
+17,Kinship,0.9367565
+18,German,4.46889908
+19,Immigration,2.31727557
+20,Falling (accident),1.5550712899999999
+21,Longevity,10.3736764
+22,Nexus (standard),1.95370544
+23,Autonomy,1.6696800299999999
+24,Latin Americans,3.11105155
+25,China,1.20576861
+26,Microplastics,0.7884042
+27,Girl,1.07219964
+28,Risk assessment,0.43705606
+29,Health care,3.53395328
+30,Poverty,3.9244704500000003
+31,Mobile phone,1.30021578
+32,Geospatial analysis,4.28490031
+33,The Internet,3.7065360500000004
+34,Context (archaeology),8.8336606
+35,Survey data collection,2.595639
+36,Social media,8.25528598
+37,Wireless,0.0
+38,Social security,1.39892881
+39,Health and Retirement Study,2.83242739
+40,Sibling,2.24296783
+41,Identification (biology),0.42260844
+42,Scale (ratio),2.30015636
+43,Construct (python library),1.4455357
+44,Cognition,1.35448665
+45,Value (mathematics),1.02892643
+46,Psychometrics,0.42928988
+47,Interpretability,0.7424259
+48,Generalizability theory,0.7395946
+49,Binary number,1.2077200000000001
+50,Sample (material),1.7681718599999998
+51,Structural equation modeling,0.21268776
+52,Politics,5.140563029999999
+53,Procurement,0.8542125
+54,Public sector,0.5980371
+55,Service (business),0.9228021200000001
+56,Action (physics),2.01323198
+57,Climate change,1.6548938300000002
+58,Dynamics (music),1.43315427
+59,Narrative,0.5138552
+60,Social connectedness,0.7653177
+61,Social capital,0.650408
+62,Empowerment,1.78158822
+63,Refugee,4.5805339
+64,Grid,0.62696296
+65,Leverage (statistics),1.85951847
+66,Volunteered geographic information,0.45318246
+67,Footprint,0.7852664
+68,Outbreak,2.5436142930000005
+69,Meta-analysis,1.33987194
+70,Educational attainment,5.917035089999999
+71,Government (linguistics),4.31851417
+72,Nature versus nurture,1.3572207
+73,Confounding,3.6204422000000003
+74,Gene,1.4422900790000002
+75,European union,0.56292003
+76,Download,0.8147325
+77,Tracking (education),1.9499315
+78,App store,0.48792145
+79,Embeddedness,0.747682
+80,Collective memory,0.52113587
+81,Historical memory,0.48570594
+82,Armed conflict,0.6300807
+83,Vulnerability (computing),1.3552858799999998
+84,Officer,3.88884863
+85,Rural area,1.01810126
+86,Older people,0.441289
+87,House officer,0.4181692
+88,Poison control,4.5935281
+89,Developing country,3.18383151
+90,Self-rated health,0.4312134
+91,Disadvantaged,2.9063409499999997
+92,Period (music),1.8642490600000001
+93,Variation (astronomy),8.95064064
+94,Social mobility,4.21298423
+95,Aggregate (composite),1.32688487
+96,Variable (mathematics),1.0888384
+97,Omitted-variable bias,0.5272892
+98,Variables,0.5151688
+99,Interval (graph theory),0.45246056
+100,Estimation,3.14263039
+101,Surge,0.56844693
+102,Expectancy theory,1.94235023
+103,Danish,2.43652357
+104,Epidemiology,4.19967445
+105,Confidence interval,3.7277414700000007
+106,Life span,1.9998433599999998
+107,Mental health,1.94366666
+108,Convergence (economics),0.7936522
+109,Divergence (linguistics),0.7169223
+110,Distribution (mathematics),1.41293756
+111,Coefficient of variation,0.4290079
+112,TRACE (psycholinguistics),1.2498414
+113,Boom,0.073242396
+114,Ageing,1.33523968
+115,Logistic regression,3.81924962
+116,Young adult,0.84340477
+117,Exploit,0.64639044
+118,Scrutiny,1.5291569900000002
+119,Simple (philosophy),1.6629391299999998
+120,Covariate,3.6886325
+121,Process (computing),1.0212030699999999
+122,Field (mathematics),1.33751678
+123,Decentralization,1.68994534
+124,Policy learning,0.592842
+125,Intervention (counseling),0.9555307399999999
+126,Policy analysis,0.5115205
+127,Social policy,0.50026417
+128,Public policy,0.43081582
+129,Transgender,0.6846957
+130,Sympathy,0.5046948
+131,Relative deprivation,0.43936747
+132,Friendship,0.8833487
+133,Measure (data warehouse),1.1913402
+134,Donation,0.63597965
+135,Mobile apps,0.63497865
+136,Perspective (graphical),2.01948447
+137,Quality (philosophy),1.41872254
+138,Vaccination,2.2141648099999998
+139,Tobacco smoke,0.46028748
+140,Causal inference,1.9744704999999998
+141,Inference,1.93953607
+142,Deep learning,1.14925355
+143,Estimator,1.4075381999999999
+144,Causal model,0.4977248
+145,Artificial neural network,0.49592265
+146,Observational study,1.6879735
+147,Focus (optics),0.43136802
+148,Law enforcement,1.5312670899999998
+149,Index (typography),2.7343288099999996
+150,Anonymity,0.46587038
+151,Brain function,0.63839173
+152,Gray (unit),0.60119414
+153,Biobank,3.5596086500000004
+154,Brain development,0.43884695
+155,Neuroimaging,0.43033087
+156,Magnetic resonance imaging,0.15256992
+157,Relocation,0.9254596
+158,Human capital,2.88042948
+159,Welfare,1.5195732800000001
+160,Work (physics),4.8881413700000005
+161,National Longitudinal Surveys,0.0
+162,Terrorism,3.36432011
+163,Unintended consequences,0.63468814
+164,Revenue,0.6168973
+165,Renting,0.59939307
+166,Database transaction,0.97986993
+167,Transaction cost,0.9019883399999999
+168,Outsourcing,0.06653634
+169,Plot (graphics),0.72833467
+170,Satellite imagery,0.5244822
+171,Satellite,0.5041112
+172,Convolutional neural network,0.47714087
+173,Pixel,0.462447
+174,Canopy,0.43605256
+175,Crop,0.94252225
+176,Growing season,0.83135793
+177,Vegetation (pathology),0.8315385
+178,Leaf area index,0.23024908
+179,Typology,0.9152963
+180,Performing arts,1.3353890499999999
+181,Operationalization,1.1885902000000002
+182,Normative,0.58211386
+183,Generative grammar,0.45947877
+184,Sexual function,0.54132503
+185,Prepayment of loan,0.64797723
+186,Social deprivation,1.62604305
+187,Receipt,0.490677
+188,Microbiome,2.0352636
+189,Psychosocial,0.7878101
+190,Tuberculosis,0.7386068
+191,Immune system,1.10175525
+192,Heritability,2.8157560999999998
+193,Variance (accounting),1.1356825000000002
+194,Diversity (politics),1.71446194
+195,Homophily,0.7373883
+196,Transitive relation,0.571842
+197,Conversation,0.53927374
+198,Popularity,0.5234484
+199,Social dynamics,0.5197751
+200,Social relation,0.47312063
+201,Face (sociological concept),0.47166097
+202,Interpersonal communication,0.47085184
+203,Social group,1.06568599
+204,Social change,0.17594671
+205,Pace,0.52384114
+206,Multilevel model,2.12749374
+207,Schedule,0.46712333
+208,Collective bargaining,0.4601683
+209,Lexis,0.7544428
+210,Transmission (telecommunications),0.51988864
+211,Grandparent,1.85770443
+212,Sample size determination,0.4276908
+213,Social isolation,0.60174805
+214,Isolation (microbiology),0.5189147
+215,Image (mathematics),0.0
+216,Hospital bed,0.85920274
+217,Behavioural genetics,0.6394333
+218,Causation,0.54058594
+219,Agency (philosophy),0.52118415
+220,Determinism,0.49804878
+221,Diversification (marketing strategy),0.4706739
+222,Postponement,2.73953746
+223,Odds ratio,1.28308064
+224,Life course approach,4.375375480000001
+225,Disadvantage,1.6345318999999998
+226,Gender equality,2.0094160800000003
+227,Sustainable development,0.43292806
+228,Endogeneity,1.28857504
+229,Course (navigation),0.65544266
+230,Extrapolation,2.2862354500000004
+231,Institution,0.4505499
+232,Content (measure theory),1.31116128
+233,Movement (music),1.6612341
+234,Biosphere,1.1398148
+235,Association (psychology),1.42533678
+236,Glacier,0.4272826
+237,Ecosystem,0.41289658
+238,Bacteria,0.09303114
+239,Checklist,0.7841598
+240,Standardization,0.5833287
+241,Selection (genetic algorithm),1.00803255
+242,Decile,0.41443682
+243,Transparency (behavior),1.22645554
+244,Open science,0.60252005
+245,Automation,1.0840826
+246,Spurious relationship,1.70276188
+247,Collider,2.0504753
+248,Correlation,0.9083986
+249,Selection bias,0.83420956
+250,Mediation,0.824355
+251,Gompertz function,1.35331975
+252,Contrast (vision),1.4775969999999998
+253,Age limit,0.46572918
+254,Limit (mathematics),0.4576863
+255,Occupational safety and health,1.39205665
+256,Cross-sectional study,2.26839095
+257,Misinformation,4.4680843
+258,Empirical evidence,0.97218458
+259,Scientific evidence,0.43890405
+260,Data collection,1.5345881
+261,Relation (database),0.83153874
+262,Microstructure,0.0
+263,Documentation,0.6981267
+264,Certificate,0.6267613
+265,Harm,0.6731558
+266,Shadow (psychology),0.6519889
+267,Payment,0.0
+268,Audit,0.5633146
+269,Gender gap,2.3040491
+270,Gender disparity,0.48072842
+271,Wage,0.5091385
+272,Human sexuality,0.84209484
+273,Salience (neuroscience),0.8107214
+274,Regional variation,0.5652934
+275,Industrialisation,1.176243
+276,Urbanization,1.4608980999999999
+277,Breastfeeding,0.99493604
+278,Baptism,0.82672024
+279,Unemployment,4.25203806
+280,Mobilization,0.6080303
+281,Primate,0.48418573
+282,Invariant (physics),0.41101137
+283,Eugenics,0.8998219
+284,Essentialism,0.71609706
+285,Racism,1.53951937
+286,Distrust,0.7884151
+287,Focus group,0.49580655
+288,Resource (disambiguation),0.49243483
+289,Toolbox,0.61546755
+290,Network analysis,0.5545381
+291,Neighbourhood (mathematics),0.45363837
+292,Graph,0.3188788
+293,Complex network,0.29336613
+294,Chronology,0.41577542
+295,Health communication,1.14958123
+296,Public engagement,0.4453154
+297,Happiness,0.7874131
+298,Anger,0.7365053
+299,Salient,0.5900917
+300,Pathogen,0.7896043
+301,Helicobacter pylori,0.53923297
+302,Latent class model,0.41572466
+303,Virus,0.33122367
+304,DNA,0.0
+305,Mood,0.6841686
+306,Personality,0.6412265
+307,Affect (linguistics),3.36384404
+308,Household income,0.4334247
+309,Tax reform,0.0
+310,Unpacking,1.84958792
+311,Proxy (statistics),1.13610112
+312,Shock (circulatory),1.03176952
+313,Subsidy,0.92677086
+314,Ambiguity,0.90986276
+315,Agriculture,0.46991768
+316,Misconduct,1.59086728
+317,MEDLINE,1.4744491100000001
+318,Famine,1.5107148
+319,Higher education,0.86936032
+320,Mating,0.16176706400000002
+321,Earnings,3.09404882
+322,Panel Study of Income Dynamics,0.48228815
+323,Occupational mobility,0.6108049
+324,Pension,2.19511193
+325,Metric (unit),3.2423071
+326,Flexibility (engineering),0.7302196
+327,Baseline (sea),0.4708889
+328,Predictive power,0.44173604
+329,Outcome (game theory),2.8470079
+330,Instrumental variable,2.2735052299999996
+331,Structural adjustment,0.4589878
+332,Interpretation (philosophy),1.07174217
+333,Treatment effect,0.5623035
+334,Counterfactual thinking,2.1514540799999997
+335,Dimension (graph theory),1.17721743
+336,Standard deviation,0.8438474
+337,Panel data,0.63105437
+338,Duration (music),0.43160105
+339,Working hours,0.35804725
+340,Metadata,1.2384254000000001
+341,Data management,0.5452297
+342,Field trial,0.44378993
+343,Constraint (computer-aided design),0.42548192
+344,Interpersonal ties,0.91998888
+345,Parity (physics),1.33793426
+346,Composition (language),0.42492902
+347,Cheating,0.98761153
+348,Loyalty,0.505348
+349,Predictive modelling,0.51273096
+350,Bootstrapping (finance),0.45626238
+351,Crop yield,0.4511853
+352,Yield (engineering),0.43663988
+353,Categorical variable,0.75769925
+354,Logit,0.53811246
+355,Probit model,0.5307213
+356,Probit,0.465709
+357,Weighting,1.4811667
+358,Ordinary least squares,0.590977
+359,Inverse,0.48280895
+360,Regression,0.42799896
+361,Propensity score matching,0.5483999
+362,Bayesian probability,0.7517213
+363,Differential effects,0.52125794
+364,Differential (mechanical device),0.4510089
+365,Longitudinal study,1.81109562
+366,Depression (economics),0.41310394
+367,Backlash,1.6601553
+368,Hostility,1.694566
+369,Family life,0.4373325
+370,Pairwise comparison,0.9085567
+371,Task (project management),0.54757416
+372,Set (abstract data type),1.0083572
+373,Group (periodic table),0.43266937
+374,Power (physics),0.0
+375,Collective efficacy,0.9032408
+376,Built environment,0.75910556
+377,Situational ethics,0.70690644
+378,Crime prevention,0.44987997
+379,Blood pressure,1.17676184
+380,Human immunodeficiency virus (HIV),0.30991697
+381,Body mass index,0.6579358
+382,Lagging,0.41415682
+383,Simplicity,0.7519859
+384,Criticism,0.6314192
+385,Pragmatism,0.60688555
+386,Specification,0.43029627
+387,Social stratification,1.02849472
+388,Germination,0.0
+389,Accountability,0.43058315
+390,Natural (archaeology),0.49295092
+391,Generosity,0.90701985
+392,Debt,0.39377314
+393,Sleep (system call),0.99449623
+394,Bivariate analysis,0.4637305
+395,Concordance,0.8755644
+396,Trait,1.36755585
+397,Ranking (information retrieval),0.63669753
+398,Rank (graph theory),0.56122136
+399,Compulsory education,0.6174838
+400,Police brutality,0.41938528
+401,Air pollution,1.64711903
+402,Attendance,0.6734153
+403,Pollution,0.5482616
+404,Air quality index,0.7675476
+405,Channel (broadcasting),0.45431376
+406,Accidental,0.44571686
+407,Extinction (optical mineralogy),0.62718487
+408,Abundance (ecology),0.4279733
+409,Habitat,0.0
+410,Praise,0.8028251
+411,Persona,0.7645182
+412,Active listening,0.6976079
+413,Humanity,0.6713155
+414,Homo economicus,0.66945535
+415,Meaning (existential),0.5659087
+416,Commons,0.5547859
+417,Paradigm shift,0.5526887
+418,Sustainability,0.47811192
+419,Life satisfaction,0.74471474
+420,Joint (building),0.5069897
+421,Macro,1.1745689
+422,Macro level,0.9103892
+423,Test (biology),0.88959914
+424,Drug,0.43792045
+425,Emigration,0.6980115
+426,Bibliometrics,0.46849662
+427,Table (database),0.46788377
+428,Residence,0.7152428
+429,Online research methods,0.46353295
+430,Cardiorespiratory fitness,0.8162967
+431,Exacerbation,0.6969617
+432,Biomarker,0.50650465
+433,Heart failure,0.48841804
+434,Breath gas analysis,0.44068787
+435,COPD,0.43965596
+436,Asthma,0.43761203
+437,Span (engineering),0.41805667
+438,Dashboard,0.78656375
+439,Visualization,0.41260922
+440,Neutrality,0.6803216
+441,Feeling,0.58357465
+442,Proposition,0.54202676
+443,Interdependence,0.5984598
+444,Sex segregation,0.51718056
+445,Microsimulation,0.5832703
+446,Alternative medicine,0.0
+447,Statistical model,0.5271784
+448,Shift work,0.7683834
+449,Circadian rhythm,0.48167384
+450,Relevance (law),0.43726328
+451,Digital Revolution,0.46130875
+452,Information Age,0.45894045
+453,Respondent,0.4522222
+454,Nowcasting,0.85939515
+455,Displacement (psychology),0.56468743
+456,Black women,0.4854003
+457,Athletes,0.5088761
+458,Closing (real estate),0.652667
+459,Precarity,0.6348115
+460,Spell,0.7747861
+461,Quarter (Canadian coin),0.45247215
+462,Matching (statistics),0.4288196
+463,Fell,0.5271739
+464,Antibody,0.51619464
+465,Theme (computing),0.43882725
+466,Event (particle physics),1.0457671
+467,Attrition,0.5556806
+468,Dropout (neural networks),0.47965196
+469,Regression analysis,0.21212253
+470,Stratified sampling,0.4273953
+471,Sexual violence,0.41481435

@@ -1,0 +1,180 @@
+,display_name,total_score_level_3
+0,Life expectancy,37.124658679999996
+1,Case fatality rate,2.1232304
+2,Infectious disease (medical specialty),2.238555166
+3,Fertility,19.37120624
+4,Population growth,1.75113755
+5,Gestational age,1.146599
+6,Socioeconomic status,9.915469909999999
+7,Health equity,1.4352856
+8,Poisson regression,0.9604412
+9,German reunification,0.6996409
+10,Family reunification,0.62758636
+11,Cause of death,2.20928225
+12,Infant mortality,1.4742219799999998
+13,Maternal death,0.57842493
+14,Standardized mortality ratio,0.44489047
+15,Social inequality,0.63537866
+16,Digital divide,1.28218846
+17,Mobile broadband,0.47222117
+18,Census,7.02594599
+19,Cognitive impairment,0.114798754
+20,Item response theory,0.6902857
+21,Confirmatory factor analysis,0.61646265
+22,Voting,1.52853152
+23,Climate justice,0.46962622
+24,Reproductive health,2.0429878400000003
+25,2019-20 coronavirus outbreak,15.7082846
+26,Excess mortality,1.6494494
+27,Assortative mating,3.14703935
+28,Genotype,0.9894528
+29,Brexit,0.9278134
+30,mHealth,0.4553436
+31,Sex ratio,0.44015878
+32,Forced migration,1.13239035
+33,Human migration,1.05455775
+34,High income countries,0.5040642
+35,Injury prevention,3.1200658299999997
+36,Geographic variation,1.1540056
+37,Quartile,0.49037814
+38,Mental illness,0.42771325
+39,Epidemiological transition,1.13861277
+40,Bust,0.7607757
+41,Research methodology,0.99945706
+42,Transgender Person,0.45511088
+43,Subversion,0.63196236
+44,Health psychology,0.5121627
+45,Tobacco use,0.18164015
+46,Women's empowerment,0.5894667
+47,Human factors and ergonomics,0.5274652799999999
+48,Cybercrime,0.96775967
+49,Cyberspace,0.5996106
+50,Brain Structure and Function,0.72178495
+51,Brain morphometry,0.4576991
+52,Promotion (chess),0.7331581
+53,Childbirth,1.1567051
+54,Parental leave,0.55927896
+55,Maternity leave,0.54136056
+56,Transaction data,0.4185688
+57,Offshoring,0.60212827
+58,Normalized Difference Vegetation Index,0.6390214
+59,Infertility,1.3224302300000002
+60,Human microbiome,0.4144315
+61,Social determinants of health,0.23438323
+62,Immunity,0.61284876
+63,Genetic variation,0.8994507
+64,Social network (sociolinguistics),1.5356952499999998
+65,Social competence,0.25753802
+66,Work schedule,0.4720807
+67,Working time,0.42661318
+68,Age structure,1.5320463999999998
+69,Economic inequality,2.21035581
+70,Similarity (geometry),0.45782596
+71,Social network analysis,0.84233
+72,Gender inequality,1.7030347199999998
+73,Twin study,0.43074965
+74,Human genetics,0.41926408
+75,European population,0.98586368
+76,Population ageing,0.9156638
+77,Odds,0.60354626
+78,Internet access,0.43899447
+79,Child mortality,0.4627777
+80,East Asia,0.83843213
+81,Microbial population biology,1.03720494
+82,Community,0.97810935
+83,Phylogenetic tree,0.96035981
+84,Strengthening the reporting of observational studies in epidemiology,0.8006296
+85,Natural selection,1.64625083
+86,Locus (genetics),1.22746186
+87,Reproductive success,1.07127394
+88,Allele,1.4815737699999998
+89,Quantitative trait locus,1.1765626
+90,Fecundity,0.48963386
+91,Cohort effect,1.01688284
+92,Public health interventions,0.94833636
+93,Crystal twinning,0.8275176
+94,Developed country,1.4952063
+95,Mobile payment,0.64187497
+96,Unrest,1.5876090600000001
+97,Social unrest,0.44671744
+98,Cyberpsychology,0.965876
+99,Gender pay gap,0.94248508
+100,Heterosexuality,0.5610335
+101,Sexual identity,0.42029703
+102,European Social Survey,1.6705645599999999
+103,Healthy ageing,0.41558152
+104,Racial formation theory,0.42169857
+105,Herd immunity,0.5029959
+106,Health promotion,0.20512262
+107,Weighted network,0.4146632
+108,Random graph,0.4297725
+109,Dominance (genetics),0.7522208
+110,Telomere,0.61610156
+111,Herpes simplex virus,0.50545096
+112,Hepatitis C virus,0.4349694
+113,Big Five personality traits,0.6164004
+114,Income distribution,0.5107486
+115,State income tax,0.0
+116,White (mutation),1.77278973
+117,Investment (military),1.10435688
+118,Livelihood,0.85723936
+119,Biostatistics,1.00960144
+120,Genetic diversity,0.63222164
+121,Additive genetic effects,0.4746388
+122,Phenotype,0.20629188
+123,Welfare state,0.7980975
+124,Economic mobility,0.9648663399999999
+125,Transfer payment,0.44844067
+126,Disease burden,0.8533585699999999
+127,Global health,0.42817876
+128,Average treatment effect,0.511291
+129,Fixed effects model,0.45619044
+130,Work hours,0.57543004
+131,Temporary work,0.4570359
+132,Random effects model,0.6150813
+133,Intraclass correlation,0.54953957
+134,Inverse probability weighting,0.6871836
+135,Posterior probability,0.11558354
+136,Depressive symptoms,0.5380186
+137,Life table,0.93819523
+138,Marital status,0.57528627
+139,Reliability (semiconductor),0.55275095
+140,Viral load,0.43693197
+141,Dormancy,0.0
+142,Small area estimation,0.69503593
+143,Survey sampling,0.4514368
+144,Data quality,0.5230238
+145,Ecological selection,0.5006187
+146,Net worth,0.51099
+147,Presidency,0.564799
+148,Abortion,0.45218745
+149,Oppression,0.501904
+150,Threatened species,0.78133047
+151,Population size,0.53662264
+152,Small population size,0.42666078
+153,Drug overdose,0.51726586
+154,Scopus,1.3793168
+155,Immunosenescence,0.843186
+156,Online advertising,0.51366466
+157,Retirement age,0.45284617
+158,Representation (politics),0.4702018
+159,Occupational segregation,0.6705265
+160,Publication bias,0.5013602
+161,Critical appraisal,0.48886126
+162,Burden of disease,0.58001363
+163,Chronotype,0.98329574
+164,Actigraphy,0.8610623
+165,Suicide prevention,1.07575773
+166,Internally displaced person,0.72411567
+167,Displaced person,0.59931725
+168,Prenatal care,0.41931677
+169,Birth weight,0.113541245
+170,Hazard ratio,0.4906539
+171,Precarious work,0.7900226
+172,Democracy,0.57903594
+173,Gestation,0.62477744
+174,Singleton,0.55447376
+175,Youth unemployment,0.41089064
+176,Disinformation,0.41124064
+177,Marginal model,0.47484782
+178,Bayes' theorem,0.46313125
