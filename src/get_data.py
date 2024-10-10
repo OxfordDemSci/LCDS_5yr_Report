@@ -66,9 +66,10 @@ def make_network(auth_df, norm=None):
     G = nx.from_numpy_array(AA, parallel_edges=True)
     centrality = nx.degree_centrality(G)
     norm = plt.Normalize(vmin=0, vmax=0.35)
-    cmap = cm.get_cmap('Spectral_r')
+    cmap = mpl.colormaps.get_cmap('Spectral_r')
     node_color = [cmap(norm(centrality[n])) for n in G.nodes()]
     return G, node_color, norm
+
 
 
 def make_auth_df(df, path_to_scientometrics):

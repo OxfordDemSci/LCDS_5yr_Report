@@ -10,8 +10,31 @@ import numpy as np
 import matplotlib.cm as cm
 from networkx.drawing.nx_agraph import graphviz_layout
 from get_data import make_sdg
+from get_data import make_network
 
 mpl.rcParams['font.family'] = 'Helvetica'
+
+
+def individual_networks(auth_df, surname, forename, fig_path):
+    fig, ax = plt.subplots(figsize=(12, 10))
+    paper_list = auth_df[auth_df['authorname'].str.contains(surname)]['doi'].tolist()
+    G, node_color, norm = make_network(auth_df[auth_df['doi'].isin(paper_list)])
+    pos = graphviz_layout(G, prog="neato")
+    nx.draw(G, pos, node_size=50,
+            node_color=node_color,
+            with_labels=False, ax=ax, alpha=1,
+            edgecolors='k',  # Set node border color to black
+            linewidths=1,  # Set node border (edge) width
+            width=0.1)  # Set edge (lines between nodes) width
+    ax.set_title('The Five Year Collaborative Network of ' + forename + ' ' + surname,
+                 loc='left', fontsize=19, y=0.975)
+    sm = plt.cm.ScalarMappable(cmap=mpl.colormaps.get_cmap('Spectral_r'))
+    sm.set_array([])  # Needed to set the array for the ScalarMappable
+    cbar_ax = fig.add_axes([0.87, 0.2, 0.02, 0.6])  # [left, bottom, width, height]
+    cbar = plt.colorbar(sm, cax=cbar_ax)
+    cbar.set_label('Degree Centrality', rotation=90, fontsize=16)
+    plt.savefig(os.path.join(fig_path, 'figure_3_' + surname + '.png'),
+                dpi=400, bbox_inches='tight')
 
 
 def make_network_figure(fig_path,
