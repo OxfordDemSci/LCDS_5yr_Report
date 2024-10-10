@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.cm as cm
 from networkx.drawing.nx_agraph import graphviz_layout
-
+from get_data import make_sdg
 
 mpl.rcParams['font.family'] = 'Helvetica'
 
@@ -181,7 +181,9 @@ def plot_figure1(df, data_path, figure_path):
                        y=df.at[pub, 'cited_by_count'],
                        s=size,  # Set size here
                        color=colors[3], edgecolor='k')
-    df[['publication_date', 'cited_by_count', 'primary_topic.domain.display_name']].to_csv('scatter_data.csv')
+    df[['publication_date',
+        'cited_by_count',
+        'primary_topic.domain.display_name']].to_csv(os.path.join(data_path, 'scatter_data.csv'))
     ax.set_yscale('log')
     ax.xaxis.set_major_locator(mdates.AutoDateLocator())
     ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
@@ -195,13 +197,14 @@ def plot_figure1(df, data_path, figure_path):
     ax2.grid(linestyle='--', alpha=0.225)
     ax2.tick_params(axis='both', which='major', labelsize=12)
     ax2.set_title('b.', loc='left', fontsize=19)
-    df['open_access.oa_status'] = df['open_access.oa_status'].str.title()
-    df['open_access.oa_status'].value_counts().sort_values(ascending=False).to_csv(os.path.join(data_path, 'open_access.csv'))
-    bar_containers = df['open_access.oa_status'].value_counts().sort_values(ascending=False).plot(ax=ax2, kind='bar',
-                                                                                                  edgecolor='k',
-                                                                                                  color=colors6)
+
+    df_sdg = make_sdg(df, data_path)
+    df_sdg.plot(ax=ax2, kind='bar',
+                edgecolor='k', legend=False,
+                color='#fee08b')
     for container in ax2.containers:
-        ax2.bar_label(container, label_type='edge')
+        ax2.bar_label(container, label_type='edge', fontsize=8)
+    ax2.tick_params(axis='x', labelsize=8, labelrotation=45)
 
     df['primary_topic.field.display_name'] = df['primary_topic.field.display_name'].replace(
         {'Economics, Econometrics and Finance': 'EEF'})
@@ -227,7 +230,7 @@ def plot_figure1(df, data_path, figure_path):
         pctdistance=0.85
     )
     ax2.set_xlabel('')
-    ax2.set_ylabel('Count', fontsize=13)
+    ax2.set_ylabel('Aggregate Scores', fontsize=13)
     ax3.set_title('c.', loc='left', fontsize=19)
     df['first_display_name'] = df['first_display_name'].str.replace('Proceedings of the National Academy of Sciences',
                                                                     'PNAS')
@@ -249,7 +252,8 @@ def plot_figure1(df, data_path, figure_path):
     ax4.set_title('d.', loc='left', fontsize=19, x=-.065)
     df['first_display_name'].value_counts()[0:15].sort_values(ascending=True).plot(ax=ax3, kind='barh', edgecolor='k',
                                                                                    color=colors[0])
-    df['first_display_name'].value_counts()[0:15].sort_values(ascending=True).to_csv(os.path.join(data_path, 'display_name.csv'))
+    df['first_display_name'].value_counts()[0:15].sort_values(ascending=True).to_csv(
+        os.path.join(data_path, 'display_name.csv'))
     ax3.set_ylabel('')
     legend_elements2 = [
         Line2D([0], [0], color='k',

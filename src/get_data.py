@@ -12,6 +12,39 @@ from scipy import sparse as sp
 mpl.rcParams['font.family'] = 'Helvetica'
 
 
+
+def make_sdg(df, path_to_scientometrics):
+    sdg_holder = {}
+    for sdg in df['sustainable_development_goals']:
+        # Check if the cell_data is iterable (i.e., not NaN or float)
+        if isinstance(sdg, list):
+            for ind_sdg in sdg:
+                display_name = ind_sdg['display_name']
+                score = ind_sdg['score']
+                if display_name in sdg_holder:
+                    sdg_holder[display_name] += score
+                else:
+                     sdg_holder[display_name] = score
+    df_sdg = pd.DataFrame(list(sdg_holder.items()),
+                          columns=['display_name', 'total_score'])
+    df_sdg['display_name'] = df_sdg['display_name'].str.replace('Good health and well-being',
+                                                                'Good health\nand well-being')
+    df_sdg['display_name'] = df_sdg['display_name'].str.replace('Sustainable cities and communities',
+                                                                'Sustainable cities\nand communities')
+    df_sdg['display_name'] = df_sdg['display_name'].str.replace('Partnerships for the goals',
+                                                                'Partnerships for\nthe goals')
+    df_sdg['display_name'] = df_sdg['display_name'].str.replace('Quality education',
+                                                                'Quality\neducation')
+    df_sdg['display_name'] = df_sdg['display_name'].str.replace('Peace, justice, and strong institutions',
+                                                                'Peace, justice, and\nstrong institutions	')
+    df_sdg['display_name'] = df_sdg['display_name'].str.replace('Decent work and economic growth',
+                                                                'Decent work and\neconomic growth')
+    df_sdg = df_sdg.set_index(df_sdg['display_name'])
+    df_sdg = df_sdg.sort_values(ascending=True, by='total_score')
+    df_sdg.to_csv(os.path.join(path_to_scientometrics, 'sdg_scores.csv'))
+    return df_sdg
+
+
 def make_network(auth_df, norm=None):
     temp_auth = auth_df.drop_duplicates(subset=['doi', 'authorid'])
     temp_auth = temp_auth[temp_auth['doi'].notnull()]
