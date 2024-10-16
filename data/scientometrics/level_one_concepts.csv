@@ -1,5 +1,5 @@
 ,display_name,total_score_level_1
-0,Demography,74.54666638500007
+0,Demography,74.56382733500006
 1,Pathology,0.6809250379999999
 2,Environmental health,14.860185415
 3,Socioeconomics,1.57273038
@@ -8,11 +8,11 @@
 6,Chemical engineering,0.14698297
 7,Finance,1.29069554
 8,Obstetrics,1.34298698
-9,Gender studies,2.373495686
+9,Gender studies,2.424885326
 10,Law,4.321618894000001
 11,Algorithm,0.0
 12,Psychiatry,2.43119924
-13,Genetics,6.225882394999999
+13,Genetics,6.205525434999999
 14,Gerontology,21.935733879999997
 15,Mathematical analysis,0.0
 16,Nursing,0.96035994
@@ -32,14 +32,14 @@
 30,Telecommunications,0.8084898899999999
 31,Cartography,1.685764856
 32,World Wide Web,4.66748851
-33,Statistics,11.060872633999999
+33,Statistics,11.078716903999998
 34,Botany,0.0
 35,Management,0.0
 36,Market economy,0.15378368
 37,Programming language,0.0
-38,Cognitive psychology,0.91752477
+38,Cognitive psychology,0.98491828
 39,Neuroscience,0.31617212
-40,Econometrics,14.422792609
+40,Econometrics,14.414165509
 41,Machine learning,4.393927309999999
 42,Arithmetic,0.0
 43,Chromatography,0.0
@@ -51,7 +51,7 @@
 49,Linguistics,0.6736752699999999
 50,Regional science,1.4372214300000001
 51,Library science,1.83786935
-52,Social psychology,8.772988699999999
+52,Social psychology,8.676781859999998
 53,Artificial intelligence,4.965831979999999
 54,Geodesy,0.0
 55,Virology,7.673091114999997
@@ -102,7 +102,7 @@
 100,Medical education,1.32395103
 101,Operations management,0.192587585
 102,Astronomy,0.06450114
-103,Aesthetics,0.0
+103,Aesthetics,0.064063996
 104,Physiology,0.35936326
 105,Engineering ethics,0.48386657
 106,Nuclear physics,0.0

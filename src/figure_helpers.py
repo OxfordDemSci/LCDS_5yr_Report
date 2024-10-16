@@ -268,7 +268,7 @@ def plot_figure1(df, data_path, figure_path):
     df['first_display_name'] = df['first_display_name'].str.replace('The Journals of Gerontology Series B',
                                                                     'Gerontology B')
     df['first_display_name'] = df['first_display_name'].str.replace('European Sociological Review', 'ESR')
-    df['first_display_name'] = df['first_display_name'].str.replace('Nature Human Behaviour', 'ESR')
+    df['first_display_name'] = df['first_display_name'].str.replace('Nature Human Behaviour', 'Nat Hum Behaviour')
     df['first_display_name'] = df['first_display_name'].str.replace('SSM - Population Health', 'SSM - Pop Health')
     df['first_display_name'] = df['first_display_name'].str.replace('Population Studies', 'Pop Studies')
     df['first_display_name'] = df['first_display_name'].str.replace('Demographic Research', 'Dem Research')
